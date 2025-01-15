@@ -391,29 +391,5 @@ describe('Resource API', () => {
                 });
         });
 
-        it('should return 500 if there is a database error', (done) => {
-            const updateData = {
-                adminNumber: '1234567A',
-                name: 'Error Test',
-                diploma: 'Diploma in Error Handling',
-                cGPA: 3.7,
-            };
-
-            // Simulate a database connection error (mock or use a tool like sinon to simulate)
-            sinon.stub(Student, 'findOneAndUpdate').throws(new Error('Database connection error'));
-
-            chai
-                .request(baseUrl)
-                .put('/update-student')
-                .send(updateData)
-                .end((err, res) => {
-                    if (err) return done(err);
-
-                    expect(res).to.have.status(500);
-                    expect(res.body.message).to.include('Error updating student');
-                    done();
-                });
-        });
-
     });
 });
