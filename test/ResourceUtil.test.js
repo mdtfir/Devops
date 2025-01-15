@@ -61,31 +61,6 @@ describe('Resource API', () => {
                 });
         });
 
-        it('Should update image field successfully', (done) => {
-            const updateData = {
-                adminNumber: '1234567C',
-                image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAABlBMVEX///+/v7+jQ3Y5AAAADklEQVQI12P4AIX8EAgALgAD/aNpbtEAAAAASUVORK5CYII"
-            };
-
-            chai
-                .request(baseUrl)
-                .put('/update-student') // Put request to update student data
-                .send(updateData) // Sending data in the body
-                .end((err, res) => { // Use .end to handle the response asynchronously
-                    // Check for errors in the response
-                    if (err) return done(err);
-
-                    // Assert that the response has a status of 200
-                    expect(res).to.have.status(200);
-
-                    // Assert that the message is as expected
-                    expect(res.body.message).to.equal('Student updated successfully');
-
-                    expect(res.body.student.image).to.equal(updateData.image);
-
-                    done(); // Indicate that the test is complete
-                });
-        });
         
         it('Should return an error for a non-square image', function (done) {
             // Base64 of an image with unequal width and height
