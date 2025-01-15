@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1733062257192" clover="3.2.0">
-  <project timestamp="1733062257192" name="All files">
-    <metrics statements="173" coveredstatements="25" conditionals="58" coveredconditionals="6" methods="24" coveredmethods="6" elements="255" coveredelements="37" complexity="0" loc="173" ncloc="173" packages="1" files="4" classes="4"/>
-    <file name="Read-student.js" path="C:\school\2.2\DEVOPS\project\DevOps_project2024\public\js\Read-student.js">
+<coverage generated="1736915112252" clover="3.2.0">
+  <project timestamp="1736915112252" name="All files">
+    <metrics statements="176" coveredstatements="25" conditionals="60" coveredconditionals="6" methods="24" coveredmethods="6" elements="260" coveredelements="37" complexity="0" loc="176" ncloc="176" packages="1" files="4" classes="4"/>
+    <file name="Read-student.js" path="C:\school\2.2\DEVOPS\devops demo\Devops\public\js\Read-student.js">
       <metrics statements="28" coveredstatements="24" conditionals="12" coveredconditionals="6" methods="8" coveredmethods="6"/>
       <line num="1" count="3" type="stmt"/>
       <line num="4" count="3" type="stmt"/>
@@ -21,20 +21,20 @@
       <line num="29" count="3" type="stmt"/>
       <line num="30" count="3" type="stmt"/>
       <line num="33" count="3" type="stmt"/>
-      <line num="34" count="24" type="stmt"/>
-      <line num="35" count="24" type="cond" truecount="1" falsecount="1"/>
-      <line num="36" count="24" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="21" type="stmt"/>
+      <line num="35" count="21" type="cond" truecount="1" falsecount="1"/>
+      <line num="36" count="21" type="cond" truecount="2" falsecount="0"/>
       <line num="40" count="3" type="cond" truecount="1" falsecount="1"/>
       <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="44" count="3" type="stmt"/>
       <line num="49" count="3" type="stmt"/>
       <line num="51" count="3" type="stmt"/>
-      <line num="52" count="24" type="cond" truecount="1" falsecount="1"/>
-      <line num="54" count="24" type="stmt"/>
+      <line num="52" count="21" type="cond" truecount="1" falsecount="1"/>
+      <line num="54" count="21" type="stmt"/>
       <line num="70" count="3" type="stmt"/>
     </file>
-    <file name="add-student.js" path="C:\school\2.2\DEVOPS\project\DevOps_project2024\public\js\add-student.js">
-      <metrics statements="61" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="6" coveredmethods="0"/>
+    <file name="add-student.js" path="C:\school\2.2\DEVOPS\devops demo\Devops\public\js\add-student.js">
+      <metrics statements="64" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <line num="2" count="0" type="stmt"/>
       <line num="3" count="0" type="stmt"/>
       <line num="9" count="0" type="stmt"/>
@@ -55,49 +55,52 @@
       <line num="31" count="0" type="stmt"/>
       <line num="32" count="0" type="stmt"/>
       <line num="35" count="0" type="stmt"/>
-      <line num="36" count="0" type="stmt"/>
+      <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="37" count="0" type="stmt"/>
-      <line num="39" count="0" type="stmt"/>
       <line num="40" count="0" type="stmt"/>
       <line num="41" count="0" type="stmt"/>
       <line num="42" count="0" type="stmt"/>
-      <line num="43" count="0" type="stmt"/>
       <line num="44" count="0" type="stmt"/>
-      <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="45" count="0" type="stmt"/>
       <line num="46" count="0" type="stmt"/>
       <line num="47" count="0" type="stmt"/>
       <line num="48" count="0" type="stmt"/>
       <line num="49" count="0" type="stmt"/>
-      <line num="50" count="0" type="stmt"/>
+      <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="51" count="0" type="stmt"/>
       <line num="52" count="0" type="stmt"/>
       <line num="53" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
       <line num="55" count="0" type="stmt"/>
       <line num="56" count="0" type="stmt"/>
-      <line num="59" count="0" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="58" count="0" type="stmt"/>
+      <line num="60" count="0" type="stmt"/>
       <line num="61" count="0" type="stmt"/>
-      <line num="65" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
       <line num="66" count="0" type="stmt"/>
-      <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="70" count="0" type="stmt"/>
       <line num="71" count="0" type="stmt"/>
-      <line num="72" count="0" type="stmt"/>
-      <line num="73" count="0" type="stmt"/>
-      <line num="75" count="0" type="stmt"/>
+      <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="76" count="0" type="stmt"/>
       <line num="77" count="0" type="stmt"/>
       <line num="78" count="0" type="stmt"/>
-      <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="80" count="0" type="stmt"/>
       <line num="81" count="0" type="stmt"/>
       <line num="82" count="0" type="stmt"/>
-      <line num="84" count="0" type="stmt"/>
+      <line num="83" count="0" type="stmt"/>
+      <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="85" count="0" type="stmt"/>
-      <line num="88" count="0" type="stmt"/>
+      <line num="86" count="0" type="stmt"/>
+      <line num="87" count="0" type="stmt"/>
+      <line num="89" count="0" type="stmt"/>
       <line num="90" count="0" type="stmt"/>
       <line num="93" count="0" type="stmt"/>
+      <line num="95" count="0" type="stmt"/>
+      <line num="98" count="0" type="stmt"/>
     </file>
-    <file name="delete-student.js" path="C:\school\2.2\DEVOPS\project\DevOps_project2024\public\js\delete-student.js">
+    <file name="delete-student.js" path="C:\school\2.2\DEVOPS\devops demo\Devops\public\js\delete-student.js">
       <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="4" count="0" type="stmt"/>
@@ -111,7 +114,7 @@
       <line num="17" count="0" type="stmt"/>
       <line num="20" count="0" type="stmt"/>
     </file>
-    <file name="update-student.js" path="C:\school\2.2\DEVOPS\project\DevOps_project2024\public\js\update-student.js">
+    <file name="update-student.js" path="C:\school\2.2\DEVOPS\devops demo\Devops\public\js\update-student.js">
       <metrics statements="73" coveredstatements="1" conditionals="22" coveredconditionals="0" methods="7" coveredmethods="0"/>
       <line num="1" count="3" type="stmt"/>
       <line num="4" count="0" type="stmt"/>
